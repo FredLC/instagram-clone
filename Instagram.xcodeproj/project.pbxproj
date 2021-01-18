@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		481FC02125AF638E00ABF2DD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481FC02025AF638E00ABF2DD /* Extensions.swift */; };
+		4828B8B425B6108400AA07FB /* PhotoSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4828B8B325B6108400AA07FB /* PhotoSelectorController.swift */; };
 		4837B4AB25B0C8D3001A3622 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4837B4AA25B0C8D3001A3622 /* LoginController.swift */; };
 		4878280F25AFA721008A28C7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4878280E25AFA721008A28C7 /* MainTabBarController.swift */; };
 		4878281125AFA861008A28C7 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4878281025AFA861008A28C7 /* UserProfileController.swift */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		481FC02025AF638E00ABF2DD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		4828B8B325B6108400AA07FB /* PhotoSelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorController.swift; sourceTree = "<group>"; };
 		4837B4AA25B0C8D3001A3622 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		4878280E25AFA721008A28C7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		4878281025AFA861008A28C7 /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
@@ -66,6 +68,14 @@
 			path = Utils;
 			sourceTree = "<group>";
 		};
+		4828B8B225B6102100AA07FB /* AddPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				4828B8B325B6108400AA07FB /* PhotoSelectorController.swift */,
+			);
+			path = AddPhoto;
+			sourceTree = "<group>";
+		};
 		4837B4A925B0C8BA001A3622 /* Login */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +115,7 @@
 		48E9D9A525AE638E00CEBFAD /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				4828B8B225B6102100AA07FB /* AddPhoto */,
 				4837B4A925B0C8BA001A3622 /* Login */,
 				4878281225AFB8CC008A28C7 /* UserProfile */,
 				481FC01F25AF638100ABF2DD /* Utils */,
@@ -249,6 +260,7 @@
 				4878281125AFA861008A28C7 /* UserProfileController.swift in Sources */,
 				48E9D9A725AE638E00CEBFAD /* AppDelegate.swift in Sources */,
 				4837B4AB25B0C8D3001A3622 /* LoginController.swift in Sources */,
+				4828B8B425B6108400AA07FB /* PhotoSelectorController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
