@@ -27,6 +27,7 @@
 		48F5FFAB25B7474A005F164E /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F5FFAA25B7474A005F164E /* HomeController.swift */; };
 		48F5FFAD25B74899005F164E /* HomePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F5FFAC25B74899005F164E /* HomePostCell.swift */; };
 		48F5FFAF25B763D1005F164E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F5FFAE25B763D1005F164E /* User.swift */; };
+		48F5FFB125B76BB1005F164E /* FirebaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F5FFB025B76BB1005F164E /* FirebaseUtils.swift */; };
 		72D70F28D241A26E13CD5E38 /* Pods_Instagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20AACE7175F1971D814D96A /* Pods_Instagram.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		48F5FFAA25B7474A005F164E /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		48F5FFAC25B74899005F164E /* HomePostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePostCell.swift; sourceTree = "<group>"; };
 		48F5FFAE25B763D1005F164E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		48F5FFB025B76BB1005F164E /* FirebaseUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUtils.swift; sourceTree = "<group>"; };
 		A20AACE7175F1971D814D96A /* Pods_Instagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Instagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD17D6A99733A72E962AC531 /* Pods-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.release.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.release.xcconfig"; sourceTree = "<group>"; };
 		D24C7E62BF066ADEDF84CC11 /* Pods-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Instagram.debug.xcconfig"; path = "Target Support Files/Pods-Instagram/Pods-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				481FC02025AF638E00ABF2DD /* Extensions.swift */,
 				48ADCB0525B666BB007755BF /* CustomImageView.swift */,
+				48F5FFB025B76BB1005F164E /* FirebaseUtils.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				48F5FFB125B76BB1005F164E /* FirebaseUtils.swift in Sources */,
 				48ADCAFF25B64383007755BF /* SharePhotoController.swift in Sources */,
 				48E9D9A925AE638E00CEBFAD /* SignUpController.swift in Sources */,
 				4881382125B631770009CDE8 /* PhotoSelectorCell.swift in Sources */,
