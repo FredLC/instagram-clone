@@ -22,7 +22,6 @@ class UserSearchCell: UICollectionViewCell {
     
     let profileImageView: CustomImageVIew = {
         let imageView = CustomImageVIew()
-        imageView.backgroundColor = .systemRed
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         return imageView
