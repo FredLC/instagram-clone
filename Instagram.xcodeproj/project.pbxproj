@@ -13,6 +13,7 @@
 		4878280F25AFA721008A28C7 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4878280E25AFA721008A28C7 /* MainTabBarController.swift */; };
 		4878281125AFA861008A28C7 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4878281025AFA861008A28C7 /* UserProfileController.swift */; };
 		4878281425AFB8E2008A28C7 /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4878281325AFB8E2008A28C7 /* UserProfileHeader.swift */; };
+		487C2B5925B8983F0046C102 /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C2B5825B8983F0046C102 /* CameraController.swift */; };
 		4881382125B631770009CDE8 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881382025B631770009CDE8 /* PhotoSelectorCell.swift */; };
 		4881382325B638D70009CDE8 /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881382225B638D70009CDE8 /* PhotoSelectorHeader.swift */; };
 		48ADCAFF25B64383007755BF /* SharePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ADCAFE25B64383007755BF /* SharePhotoController.swift */; };
@@ -40,6 +41,7 @@
 		4878280E25AFA721008A28C7 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		4878281025AFA861008A28C7 /* UserProfileController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
 		4878281325AFB8E2008A28C7 /* UserProfileHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
+		487C2B5825B8983F0046C102 /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
 		4881382025B631770009CDE8 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		4881382225B638D70009CDE8 /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
 		48ADCAFE25B64383007755BF /* SharePhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePhotoController.swift; sourceTree = "<group>"; };
@@ -124,6 +126,14 @@
 			path = UserProfile;
 			sourceTree = "<group>";
 		};
+		487C2B5725B8982C0046C102 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				487C2B5825B8983F0046C102 /* CameraController.swift */,
+			);
+			path = Camera;
+			sourceTree = "<group>";
+		};
 		48ADCB0025B65DDF007755BF /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -163,6 +173,7 @@
 		48E9D9A525AE638E00CEBFAD /* Instagram */ = {
 			isa = PBXGroup;
 			children = (
+				487C2B5725B8982C0046C102 /* Camera */,
 				48C2F71725B77FEB00F51754 /* Search */,
 				48F5FFA925B7473E005F164E /* Home */,
 				48ADCB0025B65DDF007755BF /* Models */,
@@ -322,6 +333,7 @@
 				48ADCB0225B65DFB007755BF /* Post.swift in Sources */,
 				48C2F71925B7803E00F51754 /* UserSearchController.swift in Sources */,
 				481FC02125AF638E00ABF2DD /* Extensions.swift in Sources */,
+				487C2B5925B8983F0046C102 /* CameraController.swift in Sources */,
 				48ADCB0425B65FF4007755BF /* UserProfilePhotoCell.swift in Sources */,
 				48F5FFAF25B763D1005F164E /* User.swift in Sources */,
 				4878280F25AFA721008A28C7 /* MainTabBarController.swift in Sources */,
