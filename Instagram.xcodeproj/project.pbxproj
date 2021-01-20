@@ -17,6 +17,8 @@
 		487C2B5B25B8A86C0046C102 /* PreviewPhotoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487C2B5A25B8A86C0046C102 /* PreviewPhotoContainerView.swift */; };
 		4881382125B631770009CDE8 /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881382025B631770009CDE8 /* PhotoSelectorCell.swift */; };
 		4881382325B638D70009CDE8 /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4881382225B638D70009CDE8 /* PhotoSelectorHeader.swift */; };
+		48886DFA25B8B5EE003FC32F /* CustomAnimationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48886DF925B8B5EE003FC32F /* CustomAnimationPresenter.swift */; };
+		48886DFC25B8B923003FC32F /* CustomAnimationDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48886DFB25B8B923003FC32F /* CustomAnimationDismisser.swift */; };
 		48ADCAFF25B64383007755BF /* SharePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ADCAFE25B64383007755BF /* SharePhotoController.swift */; };
 		48ADCB0225B65DFB007755BF /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ADCB0125B65DFB007755BF /* Post.swift */; };
 		48ADCB0425B65FF4007755BF /* UserProfilePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48ADCB0325B65FF4007755BF /* UserProfilePhotoCell.swift */; };
@@ -46,6 +48,8 @@
 		487C2B5A25B8A86C0046C102 /* PreviewPhotoContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewPhotoContainerView.swift; sourceTree = "<group>"; };
 		4881382025B631770009CDE8 /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		4881382225B638D70009CDE8 /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
+		48886DF925B8B5EE003FC32F /* CustomAnimationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationPresenter.swift; sourceTree = "<group>"; };
+		48886DFB25B8B923003FC32F /* CustomAnimationDismisser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnimationDismisser.swift; sourceTree = "<group>"; };
 		48ADCAFE25B64383007755BF /* SharePhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharePhotoController.swift; sourceTree = "<group>"; };
 		48ADCB0125B65DFB007755BF /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		48ADCB0325B65FF4007755BF /* UserProfilePhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfilePhotoCell.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 			children = (
 				487C2B5825B8983F0046C102 /* CameraController.swift */,
 				487C2B5A25B8A86C0046C102 /* PreviewPhotoContainerView.swift */,
+				48886DF925B8B5EE003FC32F /* CustomAnimationPresenter.swift */,
+				48886DFB25B8B923003FC32F /* CustomAnimationDismisser.swift */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -333,6 +339,7 @@
 				487C2B5B25B8A86C0046C102 /* PreviewPhotoContainerView.swift in Sources */,
 				48E9D9A925AE638E00CEBFAD /* SignUpController.swift in Sources */,
 				4881382125B631770009CDE8 /* PhotoSelectorCell.swift in Sources */,
+				48886DFA25B8B5EE003FC32F /* CustomAnimationPresenter.swift in Sources */,
 				48ADCB0625B666BB007755BF /* CustomImageView.swift in Sources */,
 				48ADCB0225B65DFB007755BF /* Post.swift in Sources */,
 				48C2F71925B7803E00F51754 /* UserSearchController.swift in Sources */,
@@ -341,6 +348,7 @@
 				48ADCB0425B65FF4007755BF /* UserProfilePhotoCell.swift in Sources */,
 				48F5FFAF25B763D1005F164E /* User.swift in Sources */,
 				4878280F25AFA721008A28C7 /* MainTabBarController.swift in Sources */,
+				48886DFC25B8B923003FC32F /* CustomAnimationDismisser.swift in Sources */,
 				4878281425AFB8E2008A28C7 /* UserProfileHeader.swift in Sources */,
 				4878281125AFA861008A28C7 /* UserProfileController.swift in Sources */,
 				48E9D9A725AE638E00CEBFAD /* AppDelegate.swift in Sources */,
