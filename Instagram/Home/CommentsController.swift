@@ -109,7 +109,7 @@ class CommentsController: UICollectionViewController, UICollectionViewDelegateFl
         
         containerView.addSubview(self.commentTextField)
         containerView.autoresizingMask = .flexibleHeight
-         commentTextField.anchor(top: containerView.topAnchor, left: containerView.leftAnchor, bottom: containerView.layoutMarginsGuide.bottomAnchor, right: containerView.rightAnchor, paddingTop: 8, paddingLeft: 8, paddingBottom: 8, paddingRight: 8, width: 0, height: 0)
+        commentTextField.anchor(top: containerView.topAnchor, left: containerView.leftAnchor, bottom: containerView.layoutMarginsGuide.bottomAnchor, right: submitButton.leftAnchor, paddingTop: 8, paddingLeft: 8, paddingBottom: 8, paddingRight: 8, width: 0, height: 0)
         
         let lineSeparatorView = UIView()
         lineSeparatorView.backgroundColor = UIColor.rgb(red: 230, green: 230, blue: 230)
@@ -140,6 +140,7 @@ class CommentsController: UICollectionViewController, UICollectionViewDelegateFl
             }
             
             print("Successfully inserted comment.")
+            self.commentTextField.text = ""
         }
     }
     
