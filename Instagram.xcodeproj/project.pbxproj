@@ -28,6 +28,8 @@
 		48C2F71925B7803E00F51754 /* UserSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C2F71825B7803E00F51754 /* UserSearchController.swift */; };
 		48C2F71B25B7843300F51754 /* UserSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C2F71A25B7843300F51754 /* UserSearchCell.swift */; };
 		48DDF3E225AF7D7A008C6E92 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 48DDF3E125AF7D7A008C6E92 /* GoogleService-Info.plist */; };
+		48E9292625B8FA3300FA4DB5 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E9292525B8FA3300FA4DB5 /* CommentCell.swift */; };
+		48E9292825B8FC3C00FA4DB5 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E9292725B8FC3C00FA4DB5 /* Comment.swift */; };
 		48E9D9A725AE638E00CEBFAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E9D9A625AE638E00CEBFAD /* AppDelegate.swift */; };
 		48E9D9A925AE638E00CEBFAD /* SignUpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48E9D9A825AE638E00CEBFAD /* SignUpController.swift */; };
 		48E9D9AE25AE638F00CEBFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48E9D9AD25AE638F00CEBFAD /* Assets.xcassets */; };
@@ -61,6 +63,8 @@
 		48C2F71825B7803E00F51754 /* UserSearchController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchController.swift; sourceTree = "<group>"; };
 		48C2F71A25B7843300F51754 /* UserSearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
 		48DDF3E125AF7D7A008C6E92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		48E9292525B8FA3300FA4DB5 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		48E9292725B8FC3C00FA4DB5 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 		48E9D9A325AE638E00CEBFAD /* Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48E9D9A625AE638E00CEBFAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48E9D9A825AE638E00CEBFAD /* SignUpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpController.swift; sourceTree = "<group>"; };
@@ -152,6 +156,7 @@
 			children = (
 				48ADCB0125B65DFB007755BF /* Post.swift */,
 				48F5FFAE25B763D1005F164E /* User.swift */,
+				48E9292725B8FC3C00FA4DB5 /* Comment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -211,6 +216,7 @@
 				48F5FFAC25B74899005F164E /* HomePostCell.swift */,
 				484FB86025B8DC3600D9928B /* CommentsController.swift */,
 				484FB86225B8EB3B00D9928B /* CustomContainerView.swift */,
+				48E9292525B8FA3300FA4DB5 /* CommentCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -342,6 +348,7 @@
 				48C2F71B25B7843300F51754 /* UserSearchCell.swift in Sources */,
 				48F5FFB125B76BB1005F164E /* FirebaseUtils.swift in Sources */,
 				48ADCAFF25B64383007755BF /* SharePhotoController.swift in Sources */,
+				48E9292825B8FC3C00FA4DB5 /* Comment.swift in Sources */,
 				487C2B5B25B8A86C0046C102 /* PreviewPhotoContainerView.swift in Sources */,
 				48E9D9A925AE638E00CEBFAD /* SignUpController.swift in Sources */,
 				4881382125B631770009CDE8 /* PhotoSelectorCell.swift in Sources */,
@@ -353,6 +360,7 @@
 				487C2B5925B8983F0046C102 /* CameraController.swift in Sources */,
 				48ADCB0425B65FF4007755BF /* UserProfilePhotoCell.swift in Sources */,
 				48F5FFAF25B763D1005F164E /* User.swift in Sources */,
+				48E9292625B8FA3300FA4DB5 /* CommentCell.swift in Sources */,
 				4878280F25AFA721008A28C7 /* MainTabBarController.swift in Sources */,
 				48886DFC25B8B923003FC32F /* CustomAnimationDismisser.swift in Sources */,
 				4878281425AFB8E2008A28C7 /* UserProfileHeader.swift in Sources */,
